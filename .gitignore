@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated outputs (if you test exports locally)
+*.docx
+*.pdf
+!sample_output/*.docx
+!sample_output/*.pdf
